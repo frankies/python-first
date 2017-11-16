@@ -1,0 +1,21 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: "%(asctime)s. - %(name)s - %(levelname)s - %(message)s"
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+  rfh:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    backupCount: 10
+    maxBytes: 409600 #4M    
+    filename: rfh.log   
+root:
+  level: DEBUG
+  handlers: [rfh]

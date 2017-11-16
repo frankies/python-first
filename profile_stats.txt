@@ -1,0 +1,72 @@
+Thu Nov 16 16:26:55 2017    log_init_profile.txt
+
+         236 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 springboot_creator.py:23(main)
+        1    0.000    0.000    0.000    0.000 optparse.py:1191(__init__)
+        1    0.000    0.000    0.000    0.000 optparse.py:1258(_populate_option_list)
+        5    0.000    0.000    0.000    0.000 optparse.py:1008(add_option)
+        5    0.000    0.000    0.000    0.000 optparse.py:561(__init__)
+        1    0.000    0.000    0.000    0.000 optparse.py:1253(_add_version_option)
+        2    0.000    0.000    0.000    0.000 gettext.py:568(gettext)
+        2    0.000    0.000    0.000    0.000 gettext.py:530(dgettext)
+        2    0.000    0.000    0.000    0.000 gettext.py:464(translation)
+        2    0.000    0.000    0.000    0.000 gettext.py:424(find)
+        1    0.000    0.000    0.000    0.000 optparse.py:1248(_add_help_option)
+        2    0.000    0.000    0.000    0.000 gettext.py:132(_expand_lang)
+        4    0.000    0.000    0.000    0.000 optparse.py:610(_set_attrs)
+        1    0.000    0.000    0.000    0.000 optparse.py:366(__init__)
+        5    0.000    0.000    0.000    0.000 optparse.py:589(_set_opt_strings)
+        1    0.000    0.000    0.000    0.000 optparse.py:200(__init__)
+        1    0.000    0.000    0.000    0.000 ntpath.py:206(basename)
+        1    0.000    0.000    0.000    0.000 ntpath.py:174(split)
+        2    0.000    0.000    0.000    0.000 {method 'write' of 'file' objects}
+        4    0.000    0.000    0.000    0.000 optparse.py:636(_check_type)
+        1    0.000    0.000    0.000    0.000 ntpath.py:96(splitdrive)
+        2    0.000    0.000    0.000    0.000 locale.py:363(normalize)
+        1    0.000    0.000    0.000    0.000 optparse.py:933(__init__)
+        8    0.000    0.000    0.000    0.000 os.py:446(get)
+        1    0.000    0.000    0.000    0.000 optparse.py:111(__init__)
+        1    0.000    0.000    0.000    0.000 optparse.py:1277(set_usage)
+       48    0.000    0.000    0.000    0.000 {setattr}
+        5    0.000    0.000    0.000    0.000 optparse.py:580(_check_opt_strings)
+        1    0.000    0.000    0.000    0.000 os.py:424(__getitem__)
+        4    0.000    0.000    0.000    0.000 optparse.py:666(_check_choice)
+       14    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        4    0.000    0.000    0.000    0.000 optparse.py:981(_check_conflict)
+        1    0.000    0.000    0.000    0.000 optparse.py:748(__str__)
+        4    0.000    0.000    0.000    0.000 optparse.py:630(_check_action)
+        4    0.000    0.000    0.000    0.000 optparse.py:679(_check_dest)
+        2    0.000    0.000    0.000    0.000 {hasattr}
+        1    0.000    0.000    0.000    0.000 optparse.py:1243(_create_option_list)
+        9    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       19    0.000    0.000    0.000    0.000 {len}
+        2    0.000    0.000    0.000    0.000 {isinstance}
+        4    0.000    0.000    0.000    0.000 optparse.py:709(_check_callback)
+       17    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 optparse.py:694(_check_const)
+        6    0.000    0.000    0.000    0.000 {method 'find' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 optparse.py:700(_check_nargs)
+        5    0.000    0.000    0.000    0.000 {filter}
+        1    0.000    0.000    0.000    0.000 optparse.py:960(set_conflict_handler)
+        1    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        2    0.000    0.000    0.000    0.000 {range}
+        1    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {max}
+        1    0.000    0.000    0.000    0.000 {repr}
+        1    0.000    0.000    0.000    0.000 optparse.py:944(_create_option_mappings)
+        2    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 optparse.py:225(set_parser)
+        1    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 optparse.py:965(set_description)
+        1    0.000    0.000    0.000    0.000 optparse.py:1268(_init_parsing_state)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {min}
+
+
