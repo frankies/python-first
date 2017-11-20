@@ -83,4 +83,17 @@
 
    - [yaml_logging_main.py](yaml_logging_main.py)  利用Yaml 形式进行配置
 
-   - ​
+     ```
+     import logconfig
+     import logging
+      
+     logconfig.from_filename("log.yaml")
+      
+     if __name__ == '__main__':
+         
+       l = logging.getLogger(__name__)
+       l.error("Hannnnlll- %s" % "heahaah")
+     ```
+
+     ​
+

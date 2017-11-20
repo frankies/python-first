@@ -2,6 +2,8 @@
 # encoding: utf-8
 
 #Entry : https://start.spring.io/
+CONST_SPRINGBOOT_INIT_URL = "https://start.spring.io/starter.tgz"
+
 # js: var l=[];  $('#dependencies input[type="checkbox"]').each(function(i, n ) { l.push(n.value);}); console.log('"'+ l.sort().join('", "') + '"')
 CONST_LANG = ("java", "kotlin", "groovy")
 
@@ -31,3 +33,16 @@ CONST_JVM = ("1.8", "1.7", "1.6")
 
 CONST_DEFAULT_GROUP= "com.test"
 CONST_DEFAULT_ARTIFACT= "Springboot-Example"
+CONST_DEFAULT_VERSION= "1.0"
+
+CONST_DEBUG=1
+
+def log_msg(msg=None, *args, **kwargs):
+    
+  if CONST_DEBUG and msg is not None:
+    if len(args) == 0 and kwargs is not None :
+       print msg
+       
+    else:
+       print msg.format(msg, *args, **kwargs)
+        
