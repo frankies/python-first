@@ -1,8 +1,8 @@
 @echo off
-set "b=%cd%"
+set "output=%cd%"
 set "sdir=%~dp0"
-Pushd %b%
+Pushd %output%
 cd /d %sdir%  
-python springboot_main.py --prog %~nx0 %*
+python springboot_main.py -o %output% --prog %~nx0 %*
 popd
 @echo on
