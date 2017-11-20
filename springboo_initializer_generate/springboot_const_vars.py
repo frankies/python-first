@@ -35,7 +35,7 @@ CONST_DEFAULT_GROUP= "com.test"
 CONST_DEFAULT_ARTIFACT= "Springboot-Example"
 CONST_DEFAULT_VERSION= "1.0"
 
-CONST_DEBUG=1
+CONST_DEBUG=0
 
 def log_msg(msg=None, *args, **kwargs):
     
