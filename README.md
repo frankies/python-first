@@ -97,3 +97,15 @@
 
      ​
 
+- 模仿Springboot initialer 利用python 实现的本地生成框架代码
+
+
+
+
+| 文件                         | 说明                                       |
+| -------------------------- | ---------------------------------------- |
+| sb_init.bat                | DOS命令行运行的命令                              |
+| springboot_main.py         | 主程序入口                                    |
+| springboot_creator_exec.py | 执行                                       |
+| springboot_const_vars.py   | 常量                                       |
+| sprinboot-meta.json        | 目前最新的Springboot 模块的元数据，`$ curl -H 'Accept: application/json' https://start.spring.io`,参考: [https://github.com/spring-io/initializr](https://github.com/spring-io/initializr) |
