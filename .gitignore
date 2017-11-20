@@ -1,7 +1,8 @@
-.settings
+/.settings
 
-.project
+/.project
 
-.pydevproject
+/.pydevproject
 /**/*.pyc 
 /test
+
