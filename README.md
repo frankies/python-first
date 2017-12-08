@@ -10,21 +10,18 @@
           - 从 https://bootstrap.pypa.io/get-pip.py 下载.py 文件
           - 在命令行运行
 
-          ```
+          ```python
           python get-pip.py
           ```
 
        3.  安装 logconfig 模块
-
-           ```
-
-           ```
-    ```
-      pip install logconfig
+ 
+      ```python
+        pip install logconfig
        ```
 
       参考： https://pypi.python.org/pypi/logconfig
-    ```
+   
 
     ​      
 
